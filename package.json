@@ -1,0 +1,31 @@
+{
+  "name": "anime-voice-actors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "db:setup": "node database/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrightaq/Anime-Voice-Actors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wrightaq/Anime-Voice-Actors/issues"
+  },
+  "homepage": "https://github.com/wrightaq/Anime-Voice-Actors#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoimport": "^1.0.6",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
